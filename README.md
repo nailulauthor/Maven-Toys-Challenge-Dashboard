@@ -29,6 +29,7 @@ The following Microsoft excel features were used in this analysis :
 
 ### 1. Data Prepation
 Data is prepared using Power Query by checking data structures and making necessary   adjustments to ensure readiness for analysis.
+(images/Data Procesing.png)
 
 
 
