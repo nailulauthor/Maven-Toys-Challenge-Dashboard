@@ -29,10 +29,19 @@ The following Microsoft excel features were used in this analysis :
 
 ### 1. Data Prepation
 Data is prepared using Power Query by checking data structures and making necessary   adjustments to ensure readiness for analysis.
-(images/Data Procesing.png)
-
-
-
+![Data Prepation](Images/data-prepation.png)
+### 2. Data Modeling and Calculations
+Power Pivot is used to build data models and table relationships, while DAX creates measures to calculate key business metrics, such as revenue and profit.
+![Data Modeling](Images/data-modeling.png)
+### 3. City Performance Analysis
+Cities are ranked by revenue and profit. Cities that rank in the top five for both metrics are selected as potential expansion candidates.
+![City Performance Analysis](Images/city-performance-analysis.png)
+### 4. Historical Trend Analysis
+Revenue and profit trends are analyzed over time to identify cities with stable or growing performance and distinguish them from those experiencing declines.
+![Historical Trend Analysis](Images/historical-trend-analysis.png)
+### 5. Location Revenue Contribution Analysis
+Calculates each location’s revenue contribution as a percentage of the city’s total revenue to identify the highest-contributing locations.
+![Location Revenue Contribution Analysis](Images/location-revenue-contribution.png)
 
 
 
