@@ -102,7 +102,7 @@ Key Findings :
 
 Downtown contributes the largest share of Monterrey’s total revenue at 29%, making it the top priority when considering locations for new store expansion in the city.
 
-### Recommendation
+## Recommendation
 Based on the revenue and profit analysis, historical trends, and location-level revenue contributions, Monterrey is recommended as a potential city for new store expansion. Although Ciudad de México leads in total revenue and profit, Monterrey demonstrates more consistent performance, with continued growth in both metrics during Q1–Q3 2023. Within Monterrey, Downtown should be prioritized for further evaluation as a potential new store location, as it contributes the largest share of the city’s total revenue at 29%, followed by Commercial at 26%, Airport at 23%, and Residential at 22%. Therefore, Downtown is the primary location to consider for new store expansion in Monterrey, subject to further evaluation of market potential, operating costs, and site suitability.
 
 
