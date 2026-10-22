@@ -35,7 +35,20 @@ Power Pivot is used to build data models and table relationships, while DAX crea
 ![Data Modeling](Images/data-modeling.png)
 ### City Performance Analysis
 Cities are ranked by revenue and profit. Cities that rank in the top five for both metrics are selected as potential expansion candidates.
-![City Performance Analysis](Images/city-performance-analysis.png)
+<table>
+  <tr>
+    <th>Top 5 City By Revenue</th>
+    <th>Top 5 City By Profit</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Images/city-by-revenue.png" width="50%" />
+    </td>
+    <td align="center">
+      <img src="Images/city-by-profit.png" width="50%" />
+    </td>
+  </tr>
+</table>
 ### Historical Trend Analysis
 Revenue and profit trends are analyzed over time to identify cities with stable or growing performance and distinguish them from those experiencing declines.
 ![Historical Trend Analysis](Images/historical-trend-analysis.png)
