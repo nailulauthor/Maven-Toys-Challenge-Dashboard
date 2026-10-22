@@ -183,6 +183,9 @@ Based on the revenue and profit analysis, historical trends, and location-level 
 8. Business Focus : Sales Analysis, Profitability Analysis, Historical Trend Analysis, Location Revenue Contribution, dan Retail Expansion Strategy
 
 
+nb. password sheet : dataanalis
+
+
 
 
 
