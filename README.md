@@ -42,10 +42,10 @@ Cities are ranked by revenue and profit. Cities that rank in the top five for bo
   </tr>
   <tr>
     <td align="center">
-      <img src="Images/city-by-revenue.png" width="50%" />
+      <img src="Images/city-by-revenue.png" width="100%" />
     </td>
     <td align="center">
-      <img src="Images/city-by-profit.png" width="50%" />
+      <img src="Images/city-by-profit.png" width="100%" />
     </td>
   </tr>
 </table>
@@ -53,10 +53,16 @@ Cities are ranked by revenue and profit. Cities that rank in the top five for bo
 
 ### Historical Trend Analysis
 Revenue and profit trends are analyzed over time to identify cities with stable or growing performance and distinguish them from those experiencing declines.
+
+
 ![Historical Trend Analysis](Images/historical-trend-analysis.png)
 ### Location Revenue Contribution Analysis
 Compares each location’s revenue contribution as a percentage of the city’s total revenue to identify the highest-contributing locations.
+
+
 ![Location Revenue Contribution Analysis](Images/location-revenue-contribution.png)
+
+
 ## Analysis Results and Key Findings
 ### Revenue and Profit Analysis of the Top 5 Cities
 The Top 5 city analysis shows that the ranking order is consistent for both revenue and profit, from 1st to 5th place, although the values and percentage differences vary. The following table compares revenue, profit, and percentage differences for each city.
@@ -68,8 +74,6 @@ The Top 5 city analysis shows that the ranking order is consistent for both reve
 | Hermosillo       | $903.388,84     |             40%            | $263.608,00    |            32%           |
 | Guanajuato       | $869.055,83     |             4%             | $235.047,00    |            12%           |
 
-![Top 5 Cities By Revenue and Profit](Images/cities-revenue-profit.png)
-
 Key findings :
 
 The ranking of the top five cities is consistent for both revenue and profit. Cuidad de Mexico leads with revenue of $1,649,492.01 and profit of $465,558.00, followed by Guadalajara and Monterrey. However, the gap between cities varies considerably.
@@ -80,7 +84,7 @@ The ranking of the top five cities is consistent for both revenue and profit. Cu
 
 These findings indicate that the leading cities have stronger financial performance, but the relatively small gap between Guadalajara and Monterrey makes their historical trends important for further evaluation.
 ### Historical Trends
-Historical trend analysis evaluates changes in revenue and profit for each city based on quarterly data. It covers changes from Q1 to Q4 2022 and compares Q1–Q3 2023 with the same period in 2022 to ensure a fair comparison.
+Historical trend analysis evaluates changes in revenue and profit for each city based on quarterly data. It covers changes from Q1 to Q4 2022 and compares Q1-Q3 2023 with the same period in 2022 to ensure a fair comparison.
 The following table summarizes the key findings to identify changes in revenue and profit for each city.
 | **City**         | **Revenue Change Q1-Q4 2022 (%)** | **Profit Change Q1-Q4 2022 (%)** | **Revenue Change Q1-Q3 2023 (%)** | **Profit Change Q1-Q3 2023 (%)** | **Revenue Change Q1-Q3 2022 VS 2023 (%)** | **Profit Change Q1-Q3 2022 VS 2023 (%)** |
 |------------------|-----------------------------------|----------------------------------|-----------------------------------|----------------------------------|-------------------------------------------|------------------------------------------|
@@ -91,7 +95,54 @@ The following table summarizes the key findings to identify changes in revenue a
 | Guanajuato       |                31%                |                21%               |                -8%                |                0%                |                    34%                    |                    23%                   |
 
 
-![Historical Trends](Images/historical-trends)
+<table>
+  <tr>
+    <th>City</th>
+    <th>Trend Historical</th>
+  </tr>
+  <tr>
+    <td align="center">
+      Cuidad de Mexico
+    </td>
+    <td align="center">
+      <img src="Images/historical-trend-cuidaddemexico.png" width="100%" />
+    </td>
+      </tr>
+    <tr>
+      <td align="center">
+      Guadalajara
+    </td>
+    <td align="center">
+      <img src="Images/historical-trend-guadalajara.png" width="100%" />
+    </td>
+    </tr>
+    <tr>
+      <td align="center">
+      Monterrey
+    </td>
+    <td align="center">
+      <img src="Images/historical-trend-monterrey.png" width="100%" />
+    </td>
+    </tr>
+    <tr>
+      <td align="center">
+      Hermosillo
+    </td>
+    <td align="center">
+      <img src="Images/historical-trend-hermosillo.png" width="100%" />
+    </td>
+    </tr>
+    <tr>
+      <td align="center">
+      Guanajuato
+    </td>
+    <td align="center">
+      <img src="Images/historical-trend-guanajuato.png" width="100%" />
+    </td>
+    </tr>
+</table>
+
+
 
 Key Findings : 
 
@@ -106,9 +157,10 @@ The historical analysis reveals that high financial rankings do not necessarily 
 Monterrey stands out for its positive performance across the observed periods, with continued growth during Q1-Q3 2023. Although Cuidad de Mexico leads in total revenue and profit, its recent quarterly decline warrants further attention. These findings suggest that Monterrey deserves further consideration as an expansion candidate, subject to the subsequent location-level revenue contribution analysis.
 ### Location Revenue Contribution
 After City 3 was identified as an initial candidate based on performance comparisons and historical trends, the analysis evaluated each location’s contribution to the city’s total revenue over the same period.
-Key Findings : 
 
-![Location Contributed](Images/location-contributed)
+![Location Contribution Monterrey](Images/location-contribution-monterrey.png)
+
+Key Findings : 
 
 1. Airport  contributed 23% of Monterrey’s total revenue.
 2. Commercial contributed 26% of Monterrey’s total revenue.
@@ -119,6 +171,16 @@ Downtown contributes the largest share of Monterrey’s total revenue at 29%, ma
 
 ## Recommendation
 Based on the revenue and profit analysis, historical trends, and location-level revenue contributions, Monterrey is recommended as a potential city for new store expansion. Although Ciudad de México leads in total revenue and profit, Monterrey demonstrates more consistent performance, with continued growth in both metrics during Q1–Q3 2023. Within Monterrey, Downtown should be prioritized for further evaluation as a potential new store location, as it contributes the largest share of the city’s total revenue at 29%, followed by Commercial at 26%, Airport at 23%, and Residential at 22%. Therefore, Downtown is the primary location to consider for new store expansion in Monterrey, subject to further evaluation of market potential, operating costs, and site suitability.
+
+##  Project Information
+1. Tools : Microsoft Excel 2021
+2. Data Preparation : Power Query
+3. Data Modeling : Power Pivot
+4. Calculations : DAX
+5. Analysis : PivotTable
+6. Visualization : PivotChart
+7. Interactivity : Slicer
+8. Business Focus : Sales Analysis, Profitability Analysis, Historical Trend Analysis, Location Revenue Contribution, dan Retail Expansion Strategy
 
 
 
