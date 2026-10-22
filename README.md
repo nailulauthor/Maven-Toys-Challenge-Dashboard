@@ -49,6 +49,8 @@ Cities are ranked by revenue and profit. Cities that rank in the top five for bo
     </td>
   </tr>
 </table>
+
+
 ### Historical Trend Analysis
 Revenue and profit trends are analyzed over time to identify cities with stable or growing performance and distinguish them from those experiencing declines.
 ![Historical Trend Analysis](Images/historical-trend-analysis.png)
